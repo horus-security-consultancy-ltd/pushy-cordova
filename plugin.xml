@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="pushy-cordova" version="1.0.35">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="pushy-cordova" version="1.0.36">
     <name>PushySDK</name>
     <description>The official Pushy SDK for Cordova apps.</description>
     <license>Apache 2.0</license>
@@ -58,7 +58,7 @@
     <!-- Android -->
     <platform name="android">
         <!-- Pushy SDK -->
-        <framework src="me.pushy:sdk:1.0.54" />
+        <framework src="me.pushy:sdk:1.0.55" />
 
         <!-- Pushy Permissions -->
         <config-file target="AndroidManifest.xml" parent="/*">
