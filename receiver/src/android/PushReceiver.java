@@ -29,6 +29,11 @@ public class PushReceiver extends BroadcastReceiver {
             notificationTitle = intent.getStringExtra("title");
         }
 
+        // Silent notification, e.g., tracking data
+        if (intent.getBooleanExtra("silent", false)) {
+            return;
+        }
+
         // Prepare a notification with vibration and sound
         Notification.Builder builder = new Notification.Builder(context)
                 .setAutoCancel(true)
